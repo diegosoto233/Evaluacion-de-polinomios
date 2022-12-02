@@ -3,7 +3,7 @@
 
 int main()
 {
-	int eleccion, Max, pol[20], x, i, resultado;
+	int eleccion, Max, pol[20], x, i, resultado = 0;
 
 	printf("\n\tPOLINOMIOS\n\n");
 	printf("Opciones: \n");
@@ -22,12 +22,18 @@ int main()
 			i++;
 		}
 		printf("\n\nQue valor tiene x?: "); scanf_s("%i", &x);
-
+		
 		i = 0;
 		while (i < Max + 1) {
 			resultado = resultado + (pow(x, i) * pol[i]);
 			i++;
 		}
-
+		printf("\n");
+		
+		i = 0;
+		while (i < Max + 1) {
+			printf("(%i(%i)^%i)+", pol[i], x, i);
+			i++;
+		}
 	}
 }
