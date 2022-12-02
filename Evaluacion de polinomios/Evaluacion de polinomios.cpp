@@ -20,5 +20,8 @@ int main()
 			printf("\nx^%i tiene: ", i); scanf_s("%i", &pol[i]);
 			i++;
 		}
+		printf("\n\nQue valor tiene x?: "); scanf_s("%i", &x);
+
+
 	}
 }
