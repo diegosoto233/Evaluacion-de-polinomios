@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <math.h>
 
 int main()
 {
@@ -22,6 +23,11 @@ int main()
 		}
 		printf("\n\nQue valor tiene x?: "); scanf_s("%i", &x);
 
+		i = 0;
+		while (i < Max + 1) {
+			resultado = resultado + (pow(x, i) * pol[i]);
+			i++;
+		}
 
 	}
 }
