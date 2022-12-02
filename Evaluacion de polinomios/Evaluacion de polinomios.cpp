@@ -17,8 +17,14 @@ int main()
 		printf("\nCoeficiente del monomio?");
 
 		i = 0;
-		while (i < Max) {
+		while (i < Max + 1) {
 			printf("\nx^%i tiene: ", i); scanf_s("%i", &pol[i]);
+			i++;
+		}
+
+		i = 0;
+		while (i < Max + 1) {
+			printf("(%ix^%i)+", pol[i], i);
 			i++;
 		}
 		printf("\n\nQue valor tiene x?: "); scanf_s("%i", &x);
