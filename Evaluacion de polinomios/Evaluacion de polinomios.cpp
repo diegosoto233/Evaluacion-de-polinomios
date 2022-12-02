@@ -4,5 +4,8 @@ int main()
 {
 	int eleccion, Max, pol[20], x, i, resultado;
 
-
+	printf("\n\tPOLINOMIOS\n\n");
+	printf("Opciones: \n");
+	printf("\n1. Introducir el polinomio y evaluarlo.\n2. Multiplicar.\n3. Dividir. ");
+	printf("\nEscogiste: "); scanf_s("%i", &eleccion);
 }
