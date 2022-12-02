@@ -14,5 +14,11 @@ int main()
 	case 1:printf("\n\tEscogiste: %i", eleccion);
 		printf("\n\nGrado maximo del polinomio?: "); scanf_s("%i", &Max);
 		printf("\nCoeficiente del monomio?");
+
+		i = 0;
+		while (i < Max) {
+			printf("\nx^%i tiene: ", i); scanf_s("%i", &pol[i]);
+			i++;
+		}
 	}
 }
