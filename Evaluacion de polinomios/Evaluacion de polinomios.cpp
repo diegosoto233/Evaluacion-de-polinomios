@@ -41,5 +41,8 @@ int main()
 			printf("(%i(%i)^%i)+", pol[i], x, i);
 			i++;
 		}
+		printf(" = %i\n", resultado);
+		break;
+	default: printf("Error");
 	}
 }
