@@ -3,5 +3,4 @@ C:\Users\diego\source\repos\Evaluacion de polinomios\Evaluacion de polinomios\Ev
 C:\Users\diego\source\repos\Evaluacion de polinomios\Evaluacion de polinomios\Evaluacion de polinomios.cpp(5,36): warning C4101: 'resultado': variable local sin referencia
 C:\Users\diego\source\repos\Evaluacion de polinomios\Evaluacion de polinomios\Evaluacion de polinomios.cpp(5,33): warning C4101: 'i': variable local sin referencia
 C:\Users\diego\source\repos\Evaluacion de polinomios\Evaluacion de polinomios\Evaluacion de polinomios.cpp(5,30): warning C4101: 'x': variable local sin referencia
-C:\Users\diego\source\repos\Evaluacion de polinomios\Evaluacion de polinomios\Evaluacion de polinomios.cpp(5,16): warning C4101: 'Max': variable local sin referencia
   Evaluacion de polinomios.vcxproj -> C:\Users\diego\source\repos\Evaluacion de polinomios\x64\Debug\Evaluacion de polinomios.exe
